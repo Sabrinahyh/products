@@ -14,8 +14,10 @@ while True:
 	# products.append([name, price]) 最縮寫
 print(products)
 
-products[0][0] #把第0格的商品名字拿出來
-products[1][1] # 把大清單第一個商品的價格拿出來
+# products[0][0] #把第0格的商品名字拿出來
+# products[1][1] # 把大清單第一個商品的價格拿出來
 # 2維度清單 two dimensional x, y 軸
 
 
+for p in products: #print 出每一個小清單， 把products 每一個p拿出來
+	print(p[0], '的價格是', p[1])
